@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,34 +14,35 @@
    <!--=============== CSS ===============-->
    <link rel="stylesheet" href="./assets/css/styles.css?v=2">
 
-   <title>Responsive Portfolio Website</title>
+   <title>Responsive Portfolio Website | Choi Moonjong</title>
 </head>
+
 <body>
    <!--==================== HEADER ====================-->
    <header class="header" id="header">
-   <nav class="nav container">
-      <a href="#" class="nav__logo">Portfolio</a>
+      <nav class="nav container">
+         <a href="#" class="nav__logo">Portfolio</a>
 
-      <div class="nav__menu" id="nav-menu">
-         <ul class="nav__list">
-            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-            <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-         </ul>
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+               <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+               <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+               <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+               <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+               <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
 
-         <div class="nav__close" id="nav-close">
-            <i class="ri-close-line"></i>
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
          </div>
-      </div>
 
-      <div class="nav__toggle" id="nav-toggle">
-         <i class="ri-menu-line"></i>
-      </div>
-   </nav>
-</header>
-
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+         </div>
+      </nav>
+   </header>
 
    <!--==================== MAIN ====================-->
    <main class="main">
@@ -48,18 +50,19 @@
       <!--==================== HOME ====================-->
       <section class="home section" id="home">
          <div class="home__container container grid">
-            <img src="assets/img/perfil.png" class="home__img" alt="profile">
+            <img src="assets/img/perfil.png" alt="profile" class="home__img">
 
             <div class="home__data">
-               <h1 class="home__name">Your Name</h1>
-               <h3 class="home__profession">Developer / Student</h3>
-               <p class="home__description">
-                  Welcome to my portfolio website!
-               </p>
+               <h1 class="home__name">Choi Moonjong</h1>
+               <h3 class="home__profession">AI & Full-Stack Developer</h3>
 
-               <a href="#contact" class="button">
-                  Contact Me
-               </a>
+               <div class="home__social">
+                  <a href="#" class="home__social-link"><i class="ri-github-line"></i></a>
+                  <a href="#" class="home__social-link"><i class="ri-linkedin-box-line"></i></a>
+                  <a href="#" class="home__social-link"><i class="ri-instagram-line"></i></a>
+               </div>
+
+               <a href="#contact" class="home__button">Contact Me</a>
             </div>
          </div>
       </section>
@@ -67,81 +70,158 @@
       <!--==================== ABOUT ====================-->
       <section class="about section" id="about">
          <div class="about__container container grid">
+
+            <img src="assets/img/perfil.png" alt="" class="about__img">
+
             <div class="about__data">
+               <h3 class="section__subtitle">My Intro</h3>
                <h2 class="section__title">About Me</h2>
+
                <p class="about__description">
-                  I am a developer passionate about building websites and learning new technologies.
+                  한경국립대학교에 재학 중이며, 웹 개발과 인공지능 개발을 함께 공부하고 있습니다.
+                  Node.js, MySQL, Unity WebGL을 활용한 대규모 웹 MMORPG 프로젝트를 직접 개발하며 서버 아키텍처,
+                  데이터베이스 설계, 실시간 통신(WebSocket), UI/UX 설계 경험을 쌓고 있습니다.
+
+                  또한 서울시 공공데이터 기반 PWA 개발, OpenStack 환경 구성, YOLO 기반 인공지능 프로젝트 등
+                  다양한 실습과 연구 프로젝트에 참여하며 개발 역량을 확장하고 있습니다.
                </p>
+
+               <a href="#" class="button">Download CV</a>
             </div>
          </div>
       </section>
 
       <!--==================== SKILLS ====================-->
       <section class="skills section" id="skills">
+         <h3 class="section__subtitle">My abilities</h3>
          <h2 class="section__title">Skills</h2>
 
          <div class="skills__container container grid">
-            <div class="skills__content">
-               <h3 class="skills__title">Frontend</h3>
-               <ul class="skills__list">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>React</li>
-               </ul>
+
+            <!-- Backend / Web -->
+            <div class="skills__box">
+               <i class="ri-node-tree skills__icon"></i>
+               <h3 class="skills__name">Node.js</h3>
             </div>
 
-            <div class="skills__content">
-               <h3 class="skills__title">Backend</h3>
-               <ul class="skills__list">
-                  <li>Node.js</li>
-                  <li>Express</li>
-                  <li>MySQL</li>
-               </ul>
+            <div class="skills__box">
+               <i class="ri-database-2-line skills__icon"></i>
+               <h3 class="skills__name">MySQL</h3>
             </div>
+
+            <div class="skills__box">
+               <i class="ri-javascript-line skills__icon"></i>
+               <h3 class="skills__name">JavaScript</h3>
+            </div>
+
+            <div class="skills__box">
+               <i class="ri-html5-line skills__icon"></i>
+               <h3 class="skills__name">HTML / CSS</h3>
+            </div>
+
+            <!-- AI -->
+            <div class="skills__box">
+               <i class="ri-brain-line skills__icon"></i>
+               <h3 class="skills__name">AI / Python</h3>
+            </div>
+
+            <div class="skills__box">
+               <i class="ri-camera-lens-line skills__icon"></i>
+               <h3 class="skills__name">YOLO 모델 학습</h3>
+            </div>
+
+            <!-- Game -->
+            <div class="skills__box">
+               <i class="ri-gamepad-line skills__icon"></i>
+               <h3 class="skills__name">Unity WebGL</h3>
+            </div>
+
+            <!-- DevOps -->
+            <div class="skills__box">
+               <i class="ri-cloud-line skills__icon"></i>
+               <h3 class="skills__name">AWS / Netlify / GitHub Pages</h3>
+            </div>
+
+            <div class="skills__box">
+               <i class="ri-server-line skills__icon"></i>
+               <h3 class="skills__name">Linux / OpenStack</h3>
+            </div>
+
+            <!-- Frontend -->
+            <div class="skills__box">
+               <i class="ri-smartphone-line skills__icon"></i>
+               <h3 class="skills__name">PWA Development</h3>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+         <h3 class="section__subtitle">What I offer</h3>
+         <h2 class="section__title">Services</h2>
+
+         <div class="services__container container grid">
+
+            <div class="services__card">
+               <i class="ri-code-s-slash-line services__icon"></i>
+               <h3 class="services__title">Web Development</h3>
+            </div>
+
+            <div class="services__card">
+               <i class="ri-brush-line services__icon"></i>
+               <h3 class="services__title">UI/UX Design</h3>
+            </div>
+
+            <div class="services__card">
+               <i class="ri-smartphone-line services__icon"></i>
+               <h3 class="services__title">Responsive Design</h3>
+            </div>
+
          </div>
       </section>
 
       <!--==================== PROJECTS ====================-->
       <section class="projects section" id="projects">
+         <h3 class="section__subtitle">My work</h3>
          <h2 class="section__title">Projects</h2>
 
          <div class="projects__container container grid">
 
-            <div class="projects__card">
-               <img src="assets/img/project-img-1.jpg" alt="" class="projects__img">
-               <h3 class="projects__title">Project 1</h3>
-               <p class="projects__description">Description of your first project.</p>
-            </div>
+            <article class="projects__card">
+               <img src="assets/img/project-img-1.jpg" class="projects__img">
+               <h3 class="projects__name">Landing Page</h3>
+            </article>
 
-            <div class="projects__card">
-               <img src="assets/img/project-img-2.jpg" alt="" class="projects__img">
-               <h3 class="projects__title">Project 2</h3>
-               <p class="projects__description">Description of your second project.</p>
-            </div>
+            <article class="projects__card">
+               <img src="assets/img/project-img-2.jpg" class="projects__img">
+               <h3 class="projects__name">Web App</h3>
+            </article>
 
-            <div class="projects__card">
-               <img src="assets/img/project-img-3.jpg" alt="" class="projects__img">
-               <h3 class="projects__title">Project 3</h3>
-               <p class="projects__description">Description of your third project.</p>
-            </div>
+            <article class="projects__card">
+               <img src="assets/img/project-img-3.jpg" class="projects__img">
+               <h3 class="projects__name">Portfolio</h3>
+            </article>
+
+            <article class="projects__card">
+               <img src="assets/img/project-img-4.jpg" class="projects__img">
+               <h3 class="projects__name">Dashboard</h3>
+            </article>
 
          </div>
       </section>
 
       <!--==================== CONTACT ====================-->
       <section class="contact section" id="contact">
-         <h2 class="section__title">Contact</h2>
+         <h3 class="section__subtitle">Get in touch</h3>
+         <h2 class="section__title">Contact Me</h2>
 
          <div class="contact__container container grid">
-            <div class="contact__content">
-               <h3 class="contact__title">Send a message</h3>
-
-               <div class="contact__info">
-                  <p>Email: your@email.com</p>
-                  <p>GitHub: github.com/yourname</p>
-               </div>
-            </div>
+            <form action="" class="contact__form">
+               <input type="text" placeholder="Your Name" class="contact__input">
+               <input type="email" placeholder="Email" class="contact__input">
+               <textarea placeholder="Message" class="contact__input"></textarea>
+               <button class="button">Send Message</button>
+            </form>
          </div>
       </section>
 
@@ -150,14 +230,15 @@
    <!--==================== FOOTER ====================-->
    <footer class="footer">
       <div class="footer__container container">
-         <h2 class="footer__title">Your Name</h2>
-         <span class="footer__copy">© 2024 All rights reserved</span>
+         <p class="footer__copy">© Choi Moonjong. All rights reserved.</p>
       </div>
    </footer>
 
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="assets/js/scrollreveal.min.js"></script>
+
    <!--=============== MAIN JS ===============-->
    <script src="./assets/js/main.js"></script>
+
 </body>
 </html>
-
-
