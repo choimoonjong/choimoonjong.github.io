@@ -464,4 +464,12 @@ ul { list-style:none; }
     padding-bottom: 3rem;
 }
 
+.services__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
 
