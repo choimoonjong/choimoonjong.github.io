@@ -81,11 +81,13 @@ ul { list-style:none; }
 }
 
 .nav {
-  height:var(--header-height);
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
+    display: flex;
+    justify-content: flex-start;  /* 왼쪽 정렬 */
+    align-items: center;
+    height: var(--header-height);
+    column-gap: 2rem; /* 요소 간 간격 */
 }
+
 
 .nav__logo {
   font-size:var(--h2-font-size);
