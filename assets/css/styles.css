@@ -545,3 +545,32 @@ ul { list-style:none; }
     background-color: #4ac686;
 }
 
+.projects__card {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 2rem;
+  gap: 1rem;
+}
+
+.projects__card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  align-items: center;
+}
+
+.button-group a {
+  width: 80%;
+  text-align: center;
+}
+
