@@ -473,3 +473,75 @@ ul { list-style:none; }
     margin: 0 auto;
 }
 
+/* ===================== CONTACT ===================== */
+.contact {
+    text-align: center;
+    padding: 4rem 0 6rem;
+}
+
+.contact__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.contact__title::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: #5bd495;
+    margin: 0.5rem auto 2rem;
+    border-radius: 4px;
+}
+
+/* 폼 전체 중앙 정렬 + 박스 레이아웃 */
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* 폼 입력창 스타일 */
+.contact__input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background: #2c2f3b;
+    border: 1px solid #414558;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: white;
+}
+
+.contact__input::placeholder {
+    color: #b5b5b5;
+}
+
+/* 메시지 입력창 */
+.contact__input.textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* 버튼 */
+.button-send {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    background-color: #5bd495;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.button-send:hover {
+    background-color: #4ac686;
+}
+
