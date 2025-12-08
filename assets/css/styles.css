@@ -90,9 +90,10 @@ ul { list-style:none; }
 
 
 .nav__logo {
-  font-size:var(--h2-font-size);
-  font-weight:var(--font-semi-bold);
-  color:var(--title-color);
+    font-size: 1.3rem;
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+    margin-right: 2rem;  /* 로고와 메뉴 사이 간격 */
 }
 
 .nav__toggle {
@@ -111,6 +112,7 @@ ul { list-style:none; }
   background-color:var(--container-color);
   padding-top:5rem;
   transition: .4s;
+  margin-left: auto;   /* 메뉴를 오른쪽 끝으로 밀기 */
 }
 .nav__list {
   display:grid;
