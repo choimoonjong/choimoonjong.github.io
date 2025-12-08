@@ -387,3 +387,51 @@ ul { list-style:none; }
   }
 }
 
+/*=============== SECTION TITLES 개선 ===============*/
+
+/* 상단 작은 서브타이틀 */
+.section__subtitle {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    text-align: left;
+    margin-bottom: .5rem;
+    opacity: .85;
+}
+
+/* 메인 큰 제목 */
+.section__title {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+/* About, Skills, Services 등을 정렬 통일 */
+.about__data,
+.skills__container,
+.services__container,
+.projects__container,
+.contact__container {
+    text-align: left;
+}
+
+/* Skills, Services 같은 카드형 콘텐츠는 간격 넓히기 */
+.skills__container,
+.services__container,
+.projects__container {
+    gap: 3rem 2rem;
+}
+
+.about__container {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    align-items: center;     /* 이미지와 텍스트 높이 맞추기 */
+    gap: 3rem;
+}
+
+.about__img {
+    max-width: 260px;
+    border-radius: 12px;
+}
+
+
