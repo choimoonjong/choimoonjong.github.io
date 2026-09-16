@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
    <meta charset="UTF-8">
@@ -12,48 +12,25 @@
    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
 
    <!--=============== CSS ===============-->
-   <link rel="stylesheet" href="./assets/css/styles.css?v=3">
+   <link rel="stylesheet" href="./assets/css/styles.css?v=2">
 
-   <title>최문종 | Software Development Portfolio</title>
+   <title>Software Development Portfolio | Choi Moon Jong</title>
 </head>
 
 <body>
-
    <!--==================== HEADER ====================-->
    <header class="header" id="header">
       <nav class="nav container">
-
-         <a href="#home" class="nav__logo">
-            Moonjong Portfolio
-         </a>
+         <a href="#" class="nav__logo">Portfolio</a>
 
          <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
-
-               <li class="nav__item">
-                  <a href="#home" class="nav__link">Home</a>
-               </li>
-
-               <li class="nav__item">
-                  <a href="#about" class="nav__link">About</a>
-               </li>
-
-               <li class="nav__item">
-                  <a href="#skills" class="nav__link">Skills</a>
-               </li>
-
-               <li class="nav__item">
-                  <a href="#strengths" class="nav__link">Strengths</a>
-               </li>
-
-               <li class="nav__item">
-                  <a href="#projects" class="nav__link">Projects</a>
-               </li>
-
-               <li class="nav__item">
-                  <a href="#contact" class="nav__link">Contact</a>
-               </li>
-
+               <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+               <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+               <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+               <li class="nav__item"><a href="#services" class="nav__link">Strengths</a></li>
+               <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+               <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
             </ul>
 
             <div class="nav__close" id="nav-close">
@@ -64,751 +41,225 @@
          <div class="nav__toggle" id="nav-toggle">
             <i class="ri-menu-line"></i>
          </div>
-
       </nav>
    </header>
-
 
    <!--==================== MAIN ====================-->
    <main class="main">
 
-
       <!--==================== HOME ====================-->
       <section class="home section" id="home">
-
          <div class="home__container container grid">
-
-            <img
-               src="assets/img/profile.png"
-               alt="최문종 프로필"
-               class="home__img"
-            >
+            <img src="assets/img/profile.png" alt="profile" class="home__img">
 
             <div class="home__data">
-
-               <p class="home__subtitle">
-                  SOFTWARE DEVELOPMENT PORTFOLIO
-               </p>
-
-               <h1 class="home__name">
-                  최문종
-               </h1>
-
-               <h3 class="home__profession">
-                  Software Developer
-               </h3>
-
-               <p class="home__description">
-                  기능 구현에 그치지 않고,
-                  데이터의 흐름과 문제의 원인을 확인하며
-                  개선하는 개발자를 목표로 하고 있습니다.
-               </p>
-
+               <h1 class="home__name">Choi Moon Jong</h1>
+               <h3 class="home__profession">Software Developer</h3>
 
                <div class="home__social">
-
-                  <!-- 본인 GitHub 주소로 변경 -->
-                  <a
-                     href="YOUR_GITHUB_PROFILE_URL"
-                     target="_blank"
-                     class="home__social-link"
-                     aria-label="GitHub"
-                  >
-                     <i class="ri-github-line"></i>
-                  </a>
-
+                  <a href="#" class="home__social-link"><i class="ri-github-line"></i></a>
+                  <a href="#" class="home__social-link"><i class="ri-linkedin-box-line"></i></a>
+                  <a href="#" class="home__social-link"><i class="ri-instagram-line"></i></a>
                </div>
 
-
-               <a href="#projects" class="home__button">
-                  View Projects
-               </a>
-
+               <a href="#contact" class="home__button">Contact Me</a>
             </div>
          </div>
-
       </section>
-
-
 
       <!--==================== ABOUT ====================-->
-      <section class="about section" id="about">
+<section class="about section" id="about">
+   <div class="about__container container grid">
+      
+      <img src="assets/img/profile.png" alt="profile" class="about__img">
 
-         <div class="about__container container grid">
+      <div class="about__data">
+         <h2 class="section__title">About Me</h2>
 
-            <img
-               src="assets/img/profile.png"
-               alt="최문종 프로필"
-               class="about__img"
-            >
+         <p class="about__description">
+            한경국립대학교에서 소프트웨어를 전공하며 웹과 백엔드 개발을 중심으로 다양한 프로젝트를 경험했습니다.
+            3인 팀으로 약 1년간 웹 기반 MMORPG 졸업작품을 진행했으며, 프로젝트에서 게임 홈페이지와 백엔드 개발을 담당하여
+            Node.js, MySQL, AWS를 활용한 서버 및 데이터베이스 연동 경험을 쌓았습니다.
 
-            <div class="about__data">
+            개발 과정에서는 단순히 기능을 구현하는 것에 그치지 않고 데이터가 의도한 방식으로 저장되고 전달되는지 확인하며,
+            문제가 발생했을 때 발생 조건과 데이터 흐름을 따라 원인을 분석하고 개선하는 과정을 경험했습니다.
 
-               <h2 class="section__title">
-                  About Me
-               </h2>
+            또한 공공데이터 API를 활용한 웹 서비스, Python과 YOLO를 활용한 인공지능 프로젝트,
+            OpenStack 환경 구성 등 다양한 실습을 통해 소프트웨어 개발 역량을 넓혀가고 있습니다.
+         </p>
 
-               <p class="about__description">
-
-                  컴퓨터공학 전공 과정에서 웹과 백엔드 개발을 경험했으며,
-                  3인 팀으로 약 1년간 웹 기반 MMORPG 졸업작품을 진행했습니다.
-
-                  <br><br>
-
-                  프로젝트에서는 게임 클라이언트가 아닌
-                  <strong>웹 홈페이지와 백엔드 개발</strong>에 참여하여
-                  Node.js, Express, MySQL, AWS를 활용한
-                  서버 및 데이터베이스 연동을 경험했습니다.
-
-                  <br><br>
-
-                  개발 과정에서는 기능을 구현하는 것뿐만 아니라,
-                  데이터가 의도한 방식으로 저장되고 전달되는지 확인하고
-                  문제가 발생했을 때 데이터 흐름과 발생 조건을 추적하여
-                  원인을 찾는 과정을 중요하게 생각했습니다.
-
-                  <br><br>
-
-                  또한 Python과 YOLO를 활용한 프로젝트를 통해
-                  이미지 데이터와 객체 탐지 기술을 경험하며
-                  소프트웨어 개발 역량을 확장해 왔습니다.
-
-               </p>
-
-            </div>
-         </div>
-
-      </section>
-
+      </div>
+   </div>
+</section>
 
 
       <!--==================== SKILLS ====================-->
       <section class="skills section" id="skills">
-
-         <h2 class="section__title">
-            Skills
-         </h2>
-
-         <p class="section__subtitle">
-            프로젝트에서 직접 사용하거나 학습한 기술입니다.
-         </p>
-
+         <h2 class="section__title">Skills</h2>
 
          <div class="skills__container container grid">
 
-
-            <!-- JavaScript -->
+            <!-- Backend / Web -->
             <div class="skills__box">
-
-               <i class="ri-javascript-line skills__icon"></i>
-
-               <h3 class="skills__name">
-                  JavaScript
-               </h3>
-
-            </div>
-
-
-            <!-- Node.js -->
-            <div class="skills__box">
-
                <i class="ri-node-tree skills__icon"></i>
-
-               <h3 class="skills__name">
-                  Node.js
-               </h3>
-
+               <h3 class="skills__name">Node.js</h3>
             </div>
 
-
-            <!-- Express -->
             <div class="skills__box">
-
-               <i class="ri-server-line skills__icon"></i>
-
-               <h3 class="skills__name">
-                  Express
-               </h3>
-
-            </div>
-
-
-            <!-- MySQL -->
-            <div class="skills__box">
-
                <i class="ri-database-2-line skills__icon"></i>
-
-               <h3 class="skills__name">
-                  MySQL
-               </h3>
-
+               <h3 class="skills__name">MySQL</h3>
             </div>
 
-
-            <!-- HTML CSS -->
             <div class="skills__box">
+               <i class="ri-javascript-line skills__icon"></i>
+               <h3 class="skills__name">JavaScript</h3>
+            </div>
 
+            <div class="skills__box">
                <i class="ri-html5-line skills__icon"></i>
-
-               <h3 class="skills__name">
-                  HTML / CSS
-               </h3>
-
+               <h3 class="skills__name">HTML / CSS</h3>
             </div>
 
-
-            <!-- AWS -->
+            <!-- AI -->
             <div class="skills__box">
-
-               <i class="ri-cloud-line skills__icon"></i>
-
-               <h3 class="skills__name">
-                  AWS
-               </h3>
-
+               <i class="ri-brain-line skills__icon"></i>
+               <h3 class="skills__name">Python / AI</h3>
             </div>
 
-
-            <!-- Git -->
             <div class="skills__box">
-
-               <i class="ri-git-branch-line skills__icon"></i>
-
-               <h3 class="skills__name">
-                  Git / GitHub
-               </h3>
-
-            </div>
-
-
-            <!-- Python -->
-            <div class="skills__box">
-
-               <i class="ri-code-box-line skills__icon"></i>
-
-               <h3 class="skills__name">
-                  Python
-               </h3>
-
-            </div>
-
-
-            <!-- YOLO -->
-            <div class="skills__box">
-
                <i class="ri-camera-lens-line skills__icon"></i>
-
-               <h3 class="skills__name">
-                  YOLO
-               </h3>
-
+               <h3 class="skills__name">YOLO 객체 탐지</h3>
             </div>
 
+            <!-- Game -->
+            <div class="skills__box">
+               <i class="ri-gamepad-line skills__icon"></i>
+               <h3 class="skills__name">Unity WebGL 프로젝트 협업</h3>
+            </div>
+
+            <!-- DevOps -->
+            <div class="skills__box">
+               <i class="ri-cloud-line skills__icon"></i>
+               <h3 class="skills__name">AWS / Netlify / GitHub Pages</h3>
+            </div>
+
+            <div class="skills__box">
+               <i class="ri-server-line skills__icon"></i>
+               <h3 class="skills__name">Linux / OpenStack</h3>
+            </div>
+
+            <!-- Frontend -->
+            <div class="skills__box">
+               <i class="ri-smartphone-line skills__icon"></i>
+               <h3 class="skills__name">PWA Development</h3>
+            </div>
          </div>
       </section>
 
-
-
-      <!--==================== STRENGTHS ====================-->
-      <section class="services section" id="strengths">
-
-         <h2 class="section__title">
-            Core Strengths
-         </h2>
-
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+         <h2 class="section__title">Core Strengths</h2>
 
          <div class="services__container container grid">
 
-
-            <!-- Problem Solving -->
             <div class="services__card">
-
-               <i class="ri-search-eye-line services__icon"></i>
-
-               <h3 class="services__title">
-                  Problem Analysis
-               </h3>
-
-               <p class="services__description">
-                  예상과 다른 결과가 발생했을 때
-                  발생 조건과 데이터 흐름을 확인하며
-                  문제의 원인을 단계적으로 추적합니다.
-               </p>
-
+               <i class="ri-code-s-slash-line services__icon"></i>
+               <h3 class="services__title">Problem Analysis</h3>
             </div>
 
-
-            <!-- Data -->
             <div class="services__card">
-
-               <i class="ri-database-line services__icon"></i>
-
-               <h3 class="services__title">
-                  Data Flow
-               </h3>
-
-               <p class="services__description">
-                  클라이언트의 요청이 서버와 데이터베이스를 거쳐
-                  다시 서비스에 반영되는 데이터 처리 과정을
-                  프로젝트를 통해 경험했습니다.
-               </p>
-
+               <i class="ri-brush-line services__icon"></i>
+               <h3 class="services__title">Data Flow Understanding</h3>
             </div>
 
-
-            <!-- Collaboration -->
             <div class="services__card">
-
-               <i class="ri-team-line services__icon"></i>
-
-               <h3 class="services__title">
-                  Collaboration
-               </h3>
-
-               <p class="services__description">
-                  서로 다른 영역을 담당하는 팀원들과
-                  데이터 형식과 기능 연결 방식을 조율하며
-                  프로젝트를 진행했습니다.
-               </p>
-
+               <i class="ri-smartphone-line services__icon"></i>
+               <h3 class="services__title">Team Collaboration</h3>
             </div>
 
          </div>
-
       </section>
-
-
 
       <!--==================== PROJECTS ====================-->
       <section class="projects section" id="projects">
-
-         <h2 class="section__title">
-            Projects
-         </h2>
-
-
-         <div class="projects__container container grid">
-
-
-            <!--================================================
-               PROJECT 1
-               CAPSTONE
-            =================================================-->
-            <article class="projects__card">
-
-               <img
-                  src="assets/img/졸업작품.jpg"
-                  alt="웹 기반 MMORPG 졸업작품"
-                  class="projects__img"
-               >
-
-
-               <span class="projects__subtitle">
-                  CAPSTONE PROJECT · 3 PERSON TEAM
-               </span>
-
-
-               <h3 class="projects__name">
-                  Web-based MMORPG
-               </h3>
-
-
-               <p class="projects__description">
-
-                  별도의 설치 없이 웹 브라우저에서 실행할 수 있도록
-                  Unity WebGL 기반으로 제작한 3인 팀 MMORPG 프로젝트입니다.
-
-                  <br><br>
-
-                  저는 프로젝트에서
-                  <strong>게임 홈페이지 및 백엔드 개발</strong>에 참여했습니다.
-
-               </p>
-
-
-               <div class="projects__info">
-
-                  <p>
-                     <strong>Period</strong><br>
-                     약 1년
-                  </p>
-
-                  <p>
-                     <strong>Role</strong><br>
-                     Web / Backend Development
-                  </p>
-
-                  <p>
-                     <strong>Tech</strong><br>
-                     JavaScript · Node.js · Express · MySQL · AWS
-                  </p>
-
-               </div>
-
-
-               <h4 class="projects__subheading">
-                  주요 경험
-               </h4>
-
-
-               <ul class="projects__list">
-
-                  <li>
-                     웹 페이지와 백엔드 서버 간 데이터 연동
-                  </li>
-
-                  <li>
-                     MySQL 기반 사용자 및 게임 데이터 처리
-                  </li>
-
-                  <li>
-                     서버와 데이터베이스 간 저장 및 조회 과정 확인
-                  </li>
-
-                  <li>
-                     프로젝트 진행 중 발생한 데이터 오류 원인 분석 및 개선
-                  </li>
-
-               </ul>
-
-
-               <h4 class="projects__subheading">
-                  Troubleshooting
-               </h4>
-
-
-               <p class="projects__description">
-
-                  게임에서 획득한 아이템과 재화가
-                  재접속 후 이전 상태로 돌아가는 문제가 발생했습니다.
-
-                  <br><br>
-
-                  데이터 저장 과정을 확인한 결과,
-                  변경된 데이터가 저장되기 전에 접속이 종료될 경우
-                  데이터베이스에 정상적으로 반영되지 않는 상황을 확인했습니다.
-
-                  <br><br>
-
-                  이후 데이터 변경이 발생한 시점에
-                  서버를 통해 저장하도록 처리 방식을 수정하고,
-                  아이템 획득 → 로그아웃 → 재접속 과정을 반복하여
-                  데이터가 정상적으로 유지되는지 확인했습니다.
-
-               </p>
-
-
-               <div class="button-group">
-
-
-                  <!-- 실제 본인이 참여한 Web / Backend 저장소 -->
-                  <a
-                     href="https://github.com/fossil33/webgame"
-                     target="_blank"
-                     class="button button-sm"
-                  >
-                     <i class="ri-github-line"></i>
-                     Web / Backend Source
-                  </a>
-
-
-                  <!-- 팀 전체 Unity 프로젝트 -->
-                  <a
-                     href="https://github.com/99choco99/Capstone25.git"
-                     target="_blank"
-                     class="button button-sm"
-                  >
-                     <i class="ri-github-line"></i>
-                     Team Project Source
-                  </a>
-
-
-                  <!-- 실제 유튜브 주소로 변경 -->
-                  <a
-                     href="YOUR_GAME_DEMO_VIDEO_URL"
-                     target="_blank"
-                     class="button button-sm"
-                  >
-                     <i class="ri-play-circle-line"></i>
-                     Demo Video
-                  </a>
-
-               </div>
-
-            </article>
-
-
-
-            <!--================================================
-               PROJECT 2
-               YOLO / COMPUTER VISION
-            =================================================-->
-            <article class="projects__card">
-
-               <!-- 실제 YOLO 프로젝트 이미지로 변경 권장 -->
-               <img
-                  src="assets/img/YOUR_YOLO_PROJECT_IMAGE.jpg"
-                  alt="YOLO 객체 탐지 프로젝트"
-                  class="projects__img"
-               >
-
-
-               <span class="projects__subtitle">
-                  COMPUTER VISION
-               </span>
-
-
-               <h3 class="projects__name">
-                  YOLO Object Detection Project
-               </h3>
-
-
-               <p class="projects__description">
-
-                  Python과 YOLO를 활용하여
-                  이미지 데이터에서 객체를 탐지하는
-                  모델 학습 과정을 경험한 프로젝트입니다.
-
-                  <br><br>
-
-                  이미지 데이터 수집 및 전처리,
-                  모델 학습과 결과 확인을 통해
-                  컴퓨터 비전의 기본적인 처리 과정을 경험했습니다.
-
-               </p>
-
-
-               <p class="projects__tech">
-                  Python · YOLO · Computer Vision
-               </p>
-
-               <!-- GitHub가 있으면 추가 -->
-               <!--
-               <a href="YOUR_YOLO_GITHUB_URL"
-                  target="_blank"
-                  class="button button-sm">
-
-                  View Project
-               </a>
-               -->
-
-            </article>
-
-
-
-            <!--================================================
-               PROJECT 3
-               AIR POLLUTION
-            =================================================-->
-            <article class="projects__card">
-
-               <img
-                  src="assets/img/미세먼지 조회.jpg"
-                  alt="미세먼지 조회 프로젝트"
-                  class="projects__img"
-               >
-
-
-               <span class="projects__subtitle">
-                  OPEN API PROJECT
-               </span>
-
-
-               <h3 class="projects__name">
-                  Air Pollution Inquiry
-               </h3>
-
-
-               <p class="projects__description">
-
-                  공공데이터 API를 활용하여
-                  지역별 미세먼지와 초미세먼지 정보를 조회하고
-                  사용자에게 제공하는 웹 서비스입니다.
-
-               </p>
-
-
-               <p class="projects__tech">
-                  JavaScript · Open API · HTML · CSS
-               </p>
-
-
-               <a
-                  href="https://cosmic-axolotl-08eb03.netlify.app/"
-                  target="_blank"
-                  class="button button-sm"
-               >
-                  View Project
-               </a>
-
-            </article>
-
-
-
-            <!--================================================
-               PROJECT 4
-               KAKAO MAP
-            =================================================-->
-            <article class="projects__card">
-
-               <img
-                  src="assets/img/seoul library.jpg"
-                  alt="서울시 공공도서관 검색 프로젝트"
-                  class="projects__img"
-               >
-
-
-               <span class="projects__subtitle">
-                  API MASHUP PROJECT
-               </span>
-
-
-               <h3 class="projects__name">
-                  Kakao Map 기반 공공도서관 검색
-               </h3>
-
-
-               <p class="projects__description">
-
-                  Kakao Map API와 서울시 공공데이터를 연동하여
-                  사용자가 서울시 공공도서관 위치와 정보를
-                  지도에서 확인할 수 있도록 구현한 프로젝트입니다.
-
-               </p>
-
-
-               <p class="projects__tech">
-                  JavaScript · Kakao Map API · Public Data API
-               </p>
-
-
-               <a
-                  href="https://rad-cupcake-5d3eba.netlify.app/"
-                  target="_blank"
-                  class="button button-sm"
-               >
-                  View Project
-               </a>
-
-            </article>
-
-
-
-            <!--================================================
-               PROJECT 5
-               CULTURAL EVENT
-            =================================================-->
-            <article class="projects__card">
-
-               <img
-                  src="assets/img/문화행사.jpg"
-                  alt="서울시 문화행사 알리미"
-                  class="projects__img"
-               >
-
-
-               <span class="projects__subtitle">
-                  OPEN API PROJECT
-               </span>
-
-
-               <h3 class="projects__name">
-                  서울시 문화행사 알리미
-               </h3>
-
-
-               <p class="projects__description">
-
-                  서울시 공공데이터 API에서 문화행사 정보를 받아
-                  사용자에게 행사 정보를 제공하도록 구현한
-                  Mashup 웹 서비스입니다.
-
-               </p>
-
-
-               <p class="projects__tech">
-                  JavaScript · Open API · HTML · CSS
-               </p>
-
-
-               <a
-                  href="https://mellifluous-panda-1f1858.netlify.app/"
-                  target="_blank"
-                  class="button button-sm"
-               >
-                  View Project
-               </a>
-
-            </article>
-
-
-         </div>
-
-      </section>
-
+   <h2 class="section__title">Projects</h2>
+
+   <div class="projects__container container grid">
+
+      <!-- 1. Air Pollution Inquiry Mashup -->
+      <article class="projects__card">
+         <img src="assets/img/미세먼지 조회.jpg" class="projects__img">
+         <h3 class="projects__name">Air Pollution Inquiry Mashup</h3>
+         <p class="projects__description">공공데이터 API를 활용하여 지역별 미세먼지와 초미세먼지 정보를 조회할 수 있도록 구현한 웹 서비스입니다.</p>
+         <a href="https://cosmic-axolotl-08eb03.netlify.app/" class="button button-sm">View Project</a>
+      </article>
+
+      <!-- 2. 서울시 문화행사 알리미 -->
+      <article class="projects__card">
+         <img src="assets/img/문화행사.jpg" class="projects__img">
+         <h3 class="projects__name">서울시 문화행사 알리미</h3>
+         <p class="projects__description">서울시 공공데이터 API에서 문화행사 정보를 불러와 사용자에게 제공하도록 구현한 웹 서비스입니다.</p>
+         <a href="https://mellifluous-panda-1f1858.netlify.app/" class="button button-sm">View Project</a>
+      </article>
+
+      <!-- 3. Kakao Map 공공도서관 검색 -->
+      <article class="projects__card">
+         <img src="assets/img/seoul library.jpg" class="projects__img">
+         <h3 class="projects__name">Kakao Map 기반 서울시 공공도서관 검색</h3>
+         <p class="projects__description">Kakao Map API와 서울시 공공도서관 데이터를 연동하여 원하는 도서관의 위치와 정보를 지도에서 확인할 수 있도록 구현한 프로젝트입니다.</p>
+         <a href="https://rad-cupcake-5d3eba.netlify.app/" class="button button-sm">View Project</a>
+      </article>
+
+      <!-- 4. 2025 졸업작품(웹기반 3d 실시간 멀티플레이 게임 백엔드) -->
+      <article class="projects__card">
+   <img src="assets/img/졸업작품.jpg" class="projects__img">
+
+   <h3 class="projects__name">2025 졸업작품 - 웹 기반 MMORPG</h3>
+
+   <p class="projects__description">
+      3인 팀으로 약 1년간 진행한 웹 기반 MMORPG 졸업작품입니다.
+      저는 게임 홈페이지와 백엔드 개발을 담당하여 Node.js, MySQL, AWS를 활용한 서버 및 데이터베이스 연동을 경험했습니다.
+      개발 과정에서 사용자 및 게임 데이터의 저장과 조회 과정을 확인하고, 데이터가 정상적으로 반영되지 않는 문제의 원인을 분석하여 개선했습니다.
+   </p>
+
+   <div class="button-group">
+      <a href="https://github.com/99choco99/Capstone25.git" class="button button-sm">
+         팀 프로젝트 게임 클라이언트 소스
+      </a>
+
+      <a href="https://github.com/fossil33/webgame" class="button button-sm">
+         웹 / 백엔드 소스
+      </a>
+   </div>
+</article>
+
+
+   </div>
+</section>
 
 
       <!--==================== CONTACT ====================-->
       <section class="contact section" id="contact">
+         <h2 class="section__title">Contact Me</h2>
 
-         <h2 class="section__title">
-            Contact
-         </h2>
-
-
-         <div class="contact__container container">
-
-            <div class="contact__content">
-
-               <p class="contact__description">
-                  포트폴리오와 프로젝트에 관심 가져주셔서 감사합니다.
-               </p>
-
-
-               <!-- 본인 이메일로 변경 -->
-               <a
-                  href="mailto:YOUR_EMAIL@example.com"
-                  class="button"
-               >
-                  <i class="ri-mail-line"></i>
-                  Email
-               </a>
-
-
-               <!-- 본인 GitHub 프로필로 변경 -->
-               <a
-                  href="YOUR_GITHUB_PROFILE_URL"
-                  target="_blank"
-                  class="button"
-               >
-                  <i class="ri-github-line"></i>
-                  GitHub
-               </a>
-
-            </div>
-
+         <div class="contact__container container grid">
+            <form action="" class="contact__form">
+               <input type="text" placeholder="Your Name" class="contact__input">
+               <input type="email" placeholder="Email" class="contact__input">
+               <textarea placeholder="Message" class="contact__input"></textarea>
+               <button class="button">Send Message</button>
+            </form>
          </div>
-
       </section>
 
    </main>
 
-
-
    <!--==================== FOOTER ====================-->
    <footer class="footer">
-
       <div class="footer__container container">
-
-         <p class="footer__copy">
-            © 2026 Choi Moonjong. All rights reserved.
-         </p>
-
+         <p class="footer__copy">© Choi Moonjong. All rights reserved.</p>
       </div>
-
    </footer>
-
-
 
    <!--=============== SCROLLREVEAL ===============-->
    <script src="assets/js/scrollreveal.min.js"></script>
@@ -817,5 +268,4 @@
    <script src="./assets/js/main.js"></script>
 
 </body>
-
 </html>
